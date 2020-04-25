@@ -1,0 +1,27 @@
+#button {
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 4em; height: 4em;
+    margin: -2em;
+}
+
+#button-container {
+    position: relative;
+    width: 24em;
+    height: 24em;
+    padding: 2.8em;
+    border: dashed 1px;
+    border-radius: 50%;
+    margin: 1.75em auto 0;
+}
+
+.deg0 {transform: translate(12em);}
+.deg45 {transform: rotate(45) translate(12em) rotate(-45);}
+.deg90 {transform: rotate(90) translate(12em) rotate(-90);}
+.deg135 {transform: rotate(135) translate(12em) rotate(-135);}
+.deg180 {transform: translate(-12em);}
+.deg225 {transform: rotate(225) translate(12em) rotate(-225);}
+.deg270 {transform: rotate(270) translate(12em) rotate(-270);}
+.deg315 {transform: rotate(315) translate(12em) rotate(-315);} 

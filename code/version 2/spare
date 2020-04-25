@@ -1,0 +1,113 @@
+ // motor1.reverse(128);
+
+    // this.pinMode(5, five.Pin.PWM)
+    // this.analogWrite(5, 255); 
+    // Lin1.write(Lin1State ^= 0x01);
+
+
+
+    // var Lin2State = 0x00; 
+    // var Lin3 = new five.Pin(9);
+    // var Lin3State = 0x00; 
+    // var Lin4 = new five.Pin(13);
+    // var Lin4State = 0x00; 
+    // var Lenb = 6;
+    // // board.pinMode(6, Pin.PWM);    
+
+    // var Rena = 11; 
+    // // board.pinMode(11, Pin.PWM);
+    // var Rin1 = new five.Pin(8);
+    // var Rin1State = 0x00; 
+    // var Rin2 = new five.Pin(7);
+    // var Rin2State = 0x00; 
+    // var Rin3 = new five.Pin(2);
+    // var Rin3State = 0x00; 
+    // var Rin4 = new five.Pin(3);
+    // var Rin4State = 0x00; 
+    // var Renb = 10; 
+    // // board.pinMode(10, Pin.PWM);
+
+    // board.io.pwmWrite(Lena, 255); 
+    // board.analogWrite(Lenb, 255);
+    // board.analogWrite(Rena, 255);
+    // board.analogWrite(Renb, 255);
+
+    // Lin1.write(Lin1State ^= 0x01);
+    // Lin3.write(Lin3State ^= 0x01);
+    // Rin2.write(Rin2State ^= 0x01);
+    // Rin4.write(Lin4State ^= 0x01);
+
+        //Left Motor
+    // var Lena = new five.Pin({pin:10, mode: five.pin.PWM});
+    // var Lin1 = new five.Pin(4);
+    // var Lin1State = 0x00; 
+    // var Lin2 = new five.Pin(12);
+
+
+    ***JAVASCRIPT CLIENT
+
+    // var up = false; 
+// var right = false;
+// var down = false;
+// var left = false;
+// var dir; 
+
+// let keyPressed = { };
+
+// document.addEventListener('keyup', (event) => {
+//   delete keyPressed[event.key];
+// });
+
+
+// document.addEventListener('keydown', (event) => {
+//   keyPressed[event.key] = true; 
+
+
+
+// console.log(keyPressed);
+// console.log(event.keyCode);
+
+//   if(keyPressed['ArrowUp'] || keyPressed['w']) { 
+//     dir = 1;
+//   } 
+//   if(keyPressed['ArrowUp'] & & event.key == 'ArrowRight'){
+//     dir = 2;
+//   }
+//   if(keyPressed['ArrowRight']) { 
+//     dir = 3; 
+//   } 
+//   if(keyPressed['ArrowDown'] && event.keyCode === 39) {
+//     dir = 4; 
+//   }
+  
+//   if(keyPressed['ArrowDown']) { 
+//     dir = 5; 
+//   }
+//   if(keyPressed['ArrowDown'] && event.keyCode === 37) {
+//     dir = 6; 
+//   }
+//   if(keyPressed['ArrowLeft']) { 
+//     dir = 7;
+//   } 
+//  if(keyPressed['ArrowUp'] && event.keyCode === 37) {
+//     dir = 8; 
+//   } 
+ 
+// console.log(dir);
+  
+// });
+
+// document.addEventListener('keydown', (key) => {
+//   if(key.keyCode == "38" || key.keyCode == "87") { 
+//     keyPressed[key.keyCode]
+//   }
+//   if(key.keyCode == "39" || key.keyCode == "68") { 
+
+//   }
+//   if(key.keyCode == "40" || key.keyCode == "83") { 
+//   }
+//   if(key.keyCode == "65" || key.keyCode == "37") {
+
+//   }
+// });
+
