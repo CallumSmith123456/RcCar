@@ -18,13 +18,14 @@ var server = app.listen(3000, (req, res) => {
 
 //Setting up Serial Port
 const SerialPort = require('serialport')
-const port = new SerialPort('/dev/cu.usbserial-1420', {
+const port = new SerialPort('/dev/cu.usbserial-1410', {
     baudRate: 9600
   })
 
 //Setting up Socket io
 var socket = require("socket.io");
 var io = socket(server);
+
 
 //setup socket connection
 io.sockets.on('connection', (socket) => {
